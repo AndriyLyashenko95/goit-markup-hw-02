@@ -1,8 +1,9 @@
 /* #region general */
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   font-weight: 400;
+  background-color: #ffffff;
 }
 ul,
 ol {
@@ -21,20 +22,19 @@ button {
 }
 /* #region header */
 .header {
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
   background: #fff;
 }
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .logo-two {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-box {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -43,28 +43,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  width: 115px;
-  height: 24px;
-}
 .nav-box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .button-nav {
   font-weight: 500;
@@ -108,8 +87,6 @@ button {
 /* #endregion header */
 /* #region main */
 .section-blue {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 .section-text {
@@ -121,15 +98,6 @@ button {
   color: #fff;
 }
 .section-button {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
@@ -141,36 +109,16 @@ button {
   color: #fff;
 }
 .section-button:hover {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 .section-button:focus {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 /* #endregion main */
 /* #region main-two */
 .section-feture {
-  width: 1128px;
-  height: 104px;
 }
 .section-headline {
   font-weight: 500;
@@ -185,19 +133,10 @@ button {
   color: #434455;
 }
 .section-box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  width: 264px;
-  height: 104px;
 }
 /* #endregion main-two */
 /* #region main-three */
 .team-box {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
 }
 .team-name {
@@ -206,17 +145,9 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .team-frame {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
@@ -238,8 +169,6 @@ button {
 /* #endregion main-three */
 /* #region main-four */
 .portfolio-box {
-  width: 1128px;
-  height: 1000px;
 }
 .portfolio-name {
   font-weight: 700;
@@ -247,18 +176,13 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .box-one {
-  width: 1128px;
-  height: 420px;
 }
 .box-two {
-  width: 1128px;
-  height: 420px;
 }
 .personal-box {
-  width: 360px;
-  height: 420px;
   background: #fff;
 }
 .personal-headlight {
@@ -276,8 +200,6 @@ button {
 /* #endregion main-four */
 /* #region footer*/
 .footer {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 .footer-text {
