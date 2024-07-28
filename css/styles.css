@@ -187,6 +187,7 @@ button {
 /* #endregion main-three */
 /* #region main-four */
 .portfolio-box {
+  color: #2e2f42;
 }
 .portfolio-name {
   font-weight: 700;
