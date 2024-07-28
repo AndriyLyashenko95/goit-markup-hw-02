@@ -98,7 +98,6 @@ button {
   color: #fff;
 }
 .section-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -113,11 +112,9 @@ button {
   color: #fff;
 }
 .section-button:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 .section-button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 /* #endregion main */
@@ -160,8 +157,6 @@ button {
   color: #2e2f42;
 }
 .team-frame {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   color: #2e2f42;
 }
@@ -193,6 +188,7 @@ button {
   color: #2e2f42;
 }
 .box-one {
+  color: #2e2f42;
 }
 .box-two {
 }
