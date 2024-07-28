@@ -1,6 +1,8 @@
 /* #region general */
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  font-weight: 400;
 }
 ul,
 ol {
@@ -22,6 +24,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
   height: 72px;
+  background: #fff;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -30,7 +33,6 @@ button {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
 }
 .logo-two {
   font-family: "Raleway", sans-serif;
@@ -63,18 +65,14 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .button-nav {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .button-nav:hover {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,7 +80,6 @@ button {
   color: #404bbf;
 }
 .button-nav:focus {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -91,24 +88,18 @@ button {
 }
 
 .nav-contact {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .nav-contact:hover {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
 .nav-contact:focus {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -122,7 +113,6 @@ button {
   background: #2e2f42;
 }
 .section-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -144,7 +134,6 @@ button {
   background: #4d5ae5;
 }
 .section-button-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -184,16 +173,12 @@ button {
   height: 104px;
 }
 .section-headline {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .section-headline-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -216,13 +201,11 @@ button {
   background: #f4f4fd;
 }
 .team-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 .team-frame {
   display: flex;
@@ -239,17 +222,13 @@ button {
   background: #fff;
 }
 .team-personal {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 .team-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -263,13 +242,11 @@ button {
   height: 1000px;
 }
 .portfolio-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 .box-one {
   width: 1128px;
@@ -285,16 +262,12 @@ button {
   background: #fff;
 }
 .personal-headlight {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .personal-discription {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -308,8 +281,6 @@ button {
   background: #2e2f42;
 }
 .footer-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
