@@ -17,8 +17,6 @@ button {
 }
 /* #endregion general */
 .body {
-  width: 1440px;
-  height: 3300px;
 }
 /* #region header */
 .header {
@@ -38,7 +36,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -50,6 +48,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .button-nav:hover {
   font-weight: 500;
@@ -71,6 +70,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 .nav-contact:hover {
   font-size: 16px;
@@ -100,6 +100,10 @@ button {
 .section-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 .section-button-text {
   font-weight: 500;
@@ -118,6 +122,13 @@ button {
 }
 /* #endregion main */
 /* #region main-two */
+.zachem {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .section-feture {
 }
 .section-headline {
@@ -146,11 +157,13 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-frame {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  color: #2e2f42;
 }
 .team-personal {
   font-weight: 500;
@@ -177,6 +190,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .box-one {
 }
@@ -190,6 +204,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .personal-discription {
   font-size: 16px;
